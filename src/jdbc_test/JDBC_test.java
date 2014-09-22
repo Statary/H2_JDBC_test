@@ -18,7 +18,6 @@ public class JDBC_test {
     try {
       Class.forName("org.h2.Driver");
 
-//      conn = DriverManager.getConnection("jdbc:h2:file://C:\\Users\\statarinov\\test\\netbeans_jdbc", "sa", "");
       conn = DriverManager.getConnection("jdbc:h2:file:./db/netbeans_jdbc", "sa", "");
 
       statement = conn.createStatement();
