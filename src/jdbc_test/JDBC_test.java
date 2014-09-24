@@ -48,7 +48,5 @@ public class JDBC_test {
         Logger.getLogger(JDBC_test.class.getName()).log(Level.SEVERE, null, ex);
       }
     }
-    
-    System.out.println("jdbc was researched !");
   }
 }
